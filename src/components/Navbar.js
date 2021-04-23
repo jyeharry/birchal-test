@@ -1,4 +1,4 @@
-import {Container, Menu, Button, Icon, Divider} from 'semantic-ui-react';
+import {Container, Menu, Button, Icon} from 'semantic-ui-react';
 
 const Navbar = (props) => {
 
@@ -8,23 +8,23 @@ const Navbar = (props) => {
         <Button>Logo</Button>
       </Menu.Item>
       <Container>
-        <Menu.Item name='overview'/>
-        <Menu.Item name='Landings'/>
-        <Menu.Item name='pages'/>
-        <Menu.Item name='app'/>
-        <Menu.Item name='docs'/>
+        <Menu.Item name='overview' link/>
+        <Menu.Item name='Landings' link/>
+        <Menu.Item name='pages' link/>
+        <Menu.Item name='app' link/>
+        <Menu.Item name='docs' link/>
       </Container>
       <Menu.Menu position='right'>
-        <Menu.Item>
+        <Menu.Item link>
           <Icon name='search'/>
         </Menu.Item>
-        <Menu.Item>
+        <Menu.Item link>
           <Icon name='cog'/>
         </Menu.Item>
-        <Menu.Item>
+        <Menu.Item link>
           <Icon name='bell'/>
         </Menu.Item>
-        <Menu.Item>
+        <Menu.Item link>
           <Icon size='big' name='user'/>
         </Menu.Item>
       </Menu.Menu>
