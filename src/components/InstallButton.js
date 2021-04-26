@@ -12,10 +12,10 @@ const InstallButton = (props) => {
   );
 
   const installedBtn = (
-    <>
+    <div className={'inline-block'}>
       <Icon inverted circular name='check' color='green' className={'inline-block'}/>
       <Header as='h4' color='green' className={'inline-block'}>Installed</Header>
-    </>
+    </div>
   );
 
   return installed ? installedBtn : installBtn;

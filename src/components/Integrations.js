@@ -18,7 +18,7 @@ const Integrations = (props) => {
         <Grid.Column textAlign='left'>
           <Header as='h3'>Integrations</Header>
         </Grid.Column>
-        <Grid.Column textAlign='right' floated='right' width={3}>
+        <Grid.Column textAlign='right' floated='right' width={4}>
           <Button color='yellow'>
             <Icon name='plus'/>
             Submit app
