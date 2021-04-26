@@ -4,7 +4,11 @@
 
 This project was a requirement for the job application process for a Frontend Software Engineer position at Birchal. The aim of the task was a build a frontend from a design that was given to me using any technologies I wanted.
 
-View the site [here]().
+View the site [here](http://jyeharry.github.io/birchal-test).
+
+This is the design I was given:
+
+![design](./task.jpg)
 
 ## Dependencies
 
