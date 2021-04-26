@@ -4,7 +4,7 @@ const Navbar = (props) => {
 
   return (
     <Menu className='borderless' size='huge'>
-      <Menu.Item name='overview'>
+      <Menu.Item>
         <Button>Logo</Button>
       </Menu.Item>
       <Container>

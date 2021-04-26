@@ -1,4 +1,4 @@
-import {Container, List, Menu} from 'semantic-ui-react';
+import {Container, Menu} from 'semantic-ui-react';
 
 const Navbar = (props) => {
 
